@@ -1,3 +1,4 @@
+shortbotIWMBUGFIXEDSTOPS.py
 shortbotIWM.py 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -77,4 +78,5 @@ bot = IWMbot()
 bot.connect("127.0.0.1", 7497, 0) 
 bot.run()
 bot.disconnect()
+
 
